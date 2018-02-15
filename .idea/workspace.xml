@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40e7c3ee-b338-488f-a7cb-bd15cd0db3e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/divisor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/listoverlap.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,18 +27,28 @@
       <file leaf-file-name="evenorodd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/evenorodd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-73">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="213">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="divisor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listoverlap.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/listoverlap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="divisor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/divisor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,6 +78,7 @@
         <option value="$PROJECT_DIR$/.idea/evenorodd.py" />
         <option value="$PROJECT_DIR$/.idea/lessthan10.py" />
         <option value="$PROJECT_DIR$/.idea/divisor.py" />
+        <option value="$PROJECT_DIR$/.idea/listoverlap.py" />
       </list>
     </option>
   </component>
@@ -133,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.divisor">
+  <component name="RunManager" selected="Python.listoverlap">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -282,18 +293,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
+    <configuration name="listoverlap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practicepython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/listoverlap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.characterinput" />
       <item index="1" class="java.lang.String" itemvalue="Python.evenorodd" />
       <item index="2" class="java.lang.String" itemvalue="Python.lessthan10" />
       <item index="3" class="java.lang.String" itemvalue="Python.divisor" />
+      <item index="4" class="java.lang.String" itemvalue="Python.listoverlap" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.divisor" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lessthan10" />
-        <item index="2" class="java.lang.String" itemvalue="Python.evenorodd" />
-        <item index="3" class="java.lang.String" itemvalue="Python.characterinput" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.listoverlap" />
+        <item index="1" class="java.lang.String" itemvalue="Python.divisor" />
+        <item index="2" class="java.lang.String" itemvalue="Python.lessthan10" />
+        <item index="3" class="java.lang.String" itemvalue="Python.evenorodd" />
+        <item index="4" class="java.lang.String" itemvalue="Python.characterinput" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518654118302</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modified lessthan10 and evenorodd">
+      <created>1518671028891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518671028891</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -432,14 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/characterinput.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/lessthan10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -448,18 +477,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/evenorodd.py">
+    <entry file="file://$PROJECT_DIR$/.idea/characterinput.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/divisor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/evenorodd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/listoverlap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding />
         </state>
       </provider>
