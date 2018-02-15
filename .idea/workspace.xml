@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40e7c3ee-b338-488f-a7cb-bd15cd0db3e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/evenorodd.py" afterPath="$PROJECT_DIR$/.idea/evenorodd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lessthan10.py" afterPath="$PROJECT_DIR$/.idea/lessthan10.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -303,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518503558214</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modified lessthan10 and evenorodd">
+      <created>1518653192812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518653192812</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -343,7 +348,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding new content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new content" />
+    <MESSAGE value="Modified lessthan10 and evenorodd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified lessthan10 and evenorodd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
