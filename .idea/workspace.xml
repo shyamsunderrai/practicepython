@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40e7c3ee-b338-488f-a7cb-bd15cd0db3e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/getprime.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/listends.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/applogparser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="guessinggame.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/guessinggame.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="listcomprehension.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/listcomprehension.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,12 +94,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listends.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listends.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/listends.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applogparser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/applogparser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="44" column="14" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+              <folding>
+                <element signature="e#472#487#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,6 +148,7 @@
         <option value="$PROJECT_DIR$/.idea/listoverlapcomprehension.py" />
         <option value="$PROJECT_DIR$/.idea/getprime.py" />
         <option value="$PROJECT_DIR$/.idea/listends.py" />
+        <option value="$PROJECT_DIR$/.idea/applogparser.py" />
       </list>
     </option>
   </component>
@@ -212,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.listends">
+  <component name="RunManager" selected="Python.applogparser">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -293,6 +295,23 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="applogparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practicepython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/applogparser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="getprime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,37 +380,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="rockpaperscissor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="practicepython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/rockpaperscissor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.rockpaperscissor" />
-      <item index="1" class="java.lang.String" itemvalue="Python.guessinggame" />
-      <item index="2" class="java.lang.String" itemvalue="Python.listoverlapcomprehension" />
-      <item index="3" class="java.lang.String" itemvalue="Python.getprime" />
-      <item index="4" class="java.lang.String" itemvalue="Python.listends" />
+      <item index="0" class="java.lang.String" itemvalue="Python.guessinggame" />
+      <item index="1" class="java.lang.String" itemvalue="Python.listoverlapcomprehension" />
+      <item index="2" class="java.lang.String" itemvalue="Python.getprime" />
+      <item index="3" class="java.lang.String" itemvalue="Python.listends" />
+      <item index="4" class="java.lang.String" itemvalue="Python.applogparser" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.listends" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getprime" />
-        <item index="2" class="java.lang.String" itemvalue="Python.listoverlapcomprehension" />
-        <item index="3" class="java.lang.String" itemvalue="Python.guessinggame" />
-        <item index="4" class="java.lang.String" itemvalue="Python.rockpaperscissor" />
+        <item index="0" class="java.lang.String" itemvalue="Python.applogparser" />
+        <item index="1" class="java.lang.String" itemvalue="Python.listends" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getprime" />
+        <item index="3" class="java.lang.String" itemvalue="Python.listoverlapcomprehension" />
+        <item index="4" class="java.lang.String" itemvalue="Python.guessinggame" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518753484921</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added listoverlapcomprehension">
+      <created>1518754877703</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1518754877703</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -533,14 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/guessinggame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/guessinggame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -938,6 +939,16 @@
         <state relative-caret-position="270">
           <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/applogparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="44" column="14" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+          <folding>
+            <element signature="e#472#487#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
