@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 '''
 ## Whats happening here !!
 1. Enter the filename and then parse it for one of the following phrases:
@@ -16,6 +18,7 @@
 
 import datetime
 import time
+import re
 
 user_input= raw_input("Enter name of the application Log: ")
 mylist=[]
@@ -33,13 +36,14 @@ def parseyarnapp():
             if "Starting to" in line and item in line:
                 stime = line.strip("")[11:19]
 
-        if ( etime == stime):
-            print item, " finished within a second"
+        FMT='%H:%M:%S'
+        elapsed = (datetime.datetime.strptime(etime, FMT) - datetime.datetime.strptime(stime, FMT))
+        regex = re.compile('[a-z]|[A-Z]')
+        if (regex.findall(str(elapsed))):
+            print item, ":  0"
         else:
-            FMT='%H:%M:%S'
-            elapsed = (datetime.datetime.strptime(etime, FMT) - datetime.datetime.strptime(stime, FMT))
             stripped = str(elapsed).strip(":")[5:7]
-            print item, " took ", stripped, " seconds"
+            print item, ": ", stripped
 
 
 parseyarnapp()
