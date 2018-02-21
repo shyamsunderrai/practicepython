@@ -19,9 +19,13 @@
 import datetime
 import time
 import re
+import io
+import tempfile
+
 
 user_input= raw_input("Enter name of the application Log: ")
 mylist=[]
+
 
 def parseyarnapp():
     for line in open(user_input):
@@ -46,4 +50,39 @@ def parseyarnapp():
             print item, ": ", stripped
 
 
-parseyarnapp()
+def parseyarnapp1():
+    plist = []
+    sew = []
+    yarnappfile = tempfile.SpooledTempfile(max_size=4194304, )
+
+    for line in open(user_input):
+        if "Starting to run new task attempt" in line or "Completed running task attempt" in line:
+            mylist.append(line.split("attempt:")[1].rstrip('\n').lstrip(' '))
+            result = list(set(mylist))
+
+    for item in mylist:
+        for line in io.open(user_input, mode='r', newline='\n'):
+            if item in line and "history.HistoryEventHandler" in line and "Event:TASK_ATTEMPT_" in line and "status=" in line:
+                plist.append(line)
+
+    for item in plist:
+        attempt= item.split(": ")[2].split(", ")[1].split("taskAttemptId=")[1]
+        vertex= item.split(": ")[2].split(", ")[0].split("vertexName=")[1]
+        timetaken = int(item.split(": ")[2].split(", ")[6].split("timeTaken=")[1])
+        r1 = str(vertex),str(attempt),int(timetaken)
+        sew.append(r1)
+        result = list(set(sew))
+    return result
+
+
+def longrunning():
+    vertex = []
+    output = parseyarnapp1()
+    output.sort(key=lambda x:x[2],reverse=True)
+    print "You can list all tasks with time taken to complete Or you can specify a number of lines you wish to see"
+    uinput = int(input("Enter the number of tasks you wish to list: "))
+    for val in range(0,uinput):
+        print output[val]
+
+longrunning()
+
