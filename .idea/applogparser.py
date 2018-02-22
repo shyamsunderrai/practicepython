@@ -20,48 +20,20 @@ import datetime
 import time
 import re
 import io
-import tempfile
-
-
-user_input= raw_input("Enter name of the application Log: ")
-mylist=[]
-
-
-def parseyarnapp():
-    for line in open(user_input):
-        if "Starting to run new task attempt" in line or "Completed running task attempt" in line:
-            mylist.append(line.split("attempt:")[1].rstrip('\n').lstrip(' '))
-            result = list(set(mylist))
-
-    for item in result:
-        for line in open(user_input):
-            if "Completed running" in line and item in line:
-                etime = line.strip("")[11:19]
-            if "Starting to" in line and item in line:
-                stime = line.strip("")[11:19]
-
-        FMT='%H:%M:%S'
-        elapsed = (datetime.datetime.strptime(etime, FMT) - datetime.datetime.strptime(stime, FMT))
-        regex = re.compile('[a-z]|[A-Z]')
-        if (regex.findall(str(elapsed))):
-            print item, ":  0"
-        else:
-            stripped = str(elapsed).strip(":")[5:7]
-            print item, ": ", stripped
+import StringIO
 
 
 def parseyarnapp1():
     plist = []
     sew = []
-    yarnappfile = tempfile.SpooledTempfile(max_size=4194304, )
-
-    for line in open(user_input):
+    for line in yarnappfile.getvalue().splitlines():
         if "Starting to run new task attempt" in line or "Completed running task attempt" in line:
             mylist.append(line.split("attempt:")[1].rstrip('\n').lstrip(' '))
             result = list(set(mylist))
 
+    yarnappfile.seek(0)
     for item in mylist:
-        for line in io.open(user_input, mode='r', newline='\n'):
+        for line in yarnappfile.getvalue().splitlines():
             if item in line and "history.HistoryEventHandler" in line and "Event:TASK_ATTEMPT_" in line and "status=" in line:
                 plist.append(line)
 
@@ -76,13 +48,40 @@ def parseyarnapp1():
 
 
 def longrunning():
-    vertex = []
+    result = []
     output = parseyarnapp1()
     output.sort(key=lambda x:x[2],reverse=True)
     print "You can list all tasks with time taken to complete Or you can specify a number of lines you wish to see"
     uinput = int(input("Enter the number of tasks you wish to list: "))
     for val in range(0,uinput):
+        result.append(output[val])
         print output[val]
+    return result
 
-longrunning()
+
+def getcounters():
+    #Attempts to sort from buffer
+    a2s = []
+    print "Retrieving counters details for retrieved attempts"
+    attempts = longrunning()
+    for attempt in attempts:
+        a2s.append(attempt[1])
+
+    for line in yarnappfile.getvalue().splitlines():
+        for item in a2s:
+            if item in line and 'org.apache.tez.common.counters.TaskCounter' in line:
+                print "- - - - - Counters for ", item, " - - - - -"
+                print line
+
+# Running main code here
+
+user_input= raw_input("Enter name of the application Log: ")
+mylist=[]
+yarnappfile = StringIO.StringIO()
+for line in open(user_input):
+    yarnappfile.write(line)
+
+getcounters()
+yarnappfile.close()
+
 

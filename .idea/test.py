@@ -8,18 +8,37 @@ import datetime
 import requests
 from bs4 import BeautifulSoup
 import tempfile
+import StringIO
 
-with tempfile.SpooledTemporaryFile(max_size=100,
-                                   mode='w+t') as temp:
-    for i in range(3):
-        temp.write('This line is repeated over and over.\n')
 
-    temp.seek(0)
-    print temp.read()
+#with tempfile.SpooledTemporaryFile(max_size=100,
+#                                   mode='w+t') as temp:
+#    for i in range(3):
+#        temp.write('This line is repeated over and over \n')
+
+#    temp.seek(0)
+#    for line in temp.read().splitlines():
+#        print line
 #url = 'http://github.com'
 #r = requests.get(url)
 #r_html = r.text
 #soup = BeautifulSoup(r.text)
 #print soup
+
+#myfile = StringIO.StringIO()
+#for line in open('/Users/srai/Downloads/application_1517053583409_6503.txt'):
+#    myfile.write(line)
+
+#for line in myfile.getvalue().splitlines():
+#    print line
+
+#myfile.close()
+
+
+myline = "2018-01-31 10:27:00,794 [INFO] [Dispatcher thread {Central}] |history.HistoryEventHandler|: [HISTORY][DAG:dag_1517053583409_6503_1][Event:TASK_FINISHED]: vertexName=Map 1, taskId=task_1517053583409_6503_1_06_000010, startTime=1517394409567, finishTime=1517394420794, timeTaken=11227, status=SUCCEEDED, successfulAttemptID=attempt_1517053583409_6503_1_06_000010_0, diagnostics=, counters=Counters: 35, org.apache.tez.common.counters.DAGCounter, DATA_LOCAL_TASKS=1, File System Counters, FILE_BYTES_WRITTEN=640045, HDFS_BYTES_READ=10612889, HDFS_READ_OPS=2, HDFS_OP_OPEN=2, org.apache.tez.common.counters.TaskCounter, SPILLED_RECORDS=0, GC_TIME_MILLIS=598, CPU_MILLISECONDS=12890, PHYSICAL_MEMORY_BYTES=783810560, VIRTUAL_MEMORY_BYTES=5990432768, COMMITTED_HEAP_BYTES=783810560, INPUT_RECORDS_PROCESSED=6417, INPUT_SPLIT_LENGTH_BYTES=19596657, OUTPUT_RECORDS=106812, OUTPUT_LARGE_RECORDS=0, OUTPUT_BYTES=1281749, OUTPUT_BYTES_WITH_OVERHEAD=1495379, OUTPUT_BYTES_PHYSICAL=640037, ADDITIONAL_SPILLS_BYTES_WRITTEN=0, ADDITIONAL_SPILLS_BYTES_READ=0, ADDITIONAL_SPILL_COUNT=0, HIVE, DESERIALIZE_ERRORS=0, RECORDS_IN_Map_1=6515000, RECORDS_OUT_INTERMEDIATE_Map_1=106812, TaskCounter_Map_1_INPUT_n, INPUT_RECORDS_PROCESSED=6417, INPUT_SPLIT_LENGTH_BYTES=19596657, TaskCounter_Map_1_OUTPUT_Reducer_10, ADDITIONAL_SPILLS_BYTES_READ=0, ADDITIONAL_SPILLS_BYTES_WRITTEN=0, ADDITIONAL_SPILL_COUNT=0, OUTPUT_BYTES=1281749, OUTPUT_BYTES_PHYSICAL=640037, OUTPUT_BYTES_WITH_OVERHEAD=1495379, OUTPUT_LARGE_RECORDS=0, OUTPUT_RECORDS=106812, SPILLED_RECORDS=0 \n 2018-01-31 10:27:00,794 [INFO] [Dispatcher thread {Central}] |history.HistoryEventHandler|: [HISTORY][DAG:dag_1517053583409_6503_1][Event:TASK_FINISHED]: vertexName=Map 1, taskId=task_1517053583409_6503_1_06_000010, startTime=1517394409567, finishTime=1517394420794, timeTaken=11227, status=SUCCEEDED, successfulAttemptID=attempt_1517053583409_6503_1_06_000010_0, diagnostics=, counters=Counters: 35, org.apache.tez.common.counters.DAGCounter, DATA_LOCAL_TASKS=1, File System Counters, FILE_BYTES_WRITTEN=640045, HDFS_BYTES_READ=10612889, HDFS_READ_OPS=2, HDFS_OP_OPEN=2, org.apache.tez.common.counters.TaskCounter, SPILLED_RECORDS=0, GC_TIME_MILLIS=598, CPU_MILLISECONDS=12890, PHYSICAL_MEMORY_BYTES=783810560, VIRTUAL_MEMORY_BYTES=5990432768, COMMITTED_HEAP_BYTES=783810560, INPUT_RECORDS_PROCESSED=6417, INPUT_SPLIT_LENGTH_BYTES=19596657, OUTPUT_RECORDS=106812, OUTPUT_LARGE_RECORDS=0, OUTPUT_BYTES=1281749, OUTPUT_BYTES_WITH_OVERHEAD=1495379, OUTPUT_BYTES_PHYSICAL=640037, ADDITIONAL_SPILLS_BYTES_WRITTEN=0, ADDITIONAL_SPILLS_BYTES_READ=0, ADDITIONAL_SPILL_COUNT=0, HIVE, DESERIALIZE_ERRORS=0, RECORDS_IN_Map_1=6515000, RECORDS_OUT_INTERMEDIATE_Map_1=106812, TaskCounter_Map_1_INPUT_n, INPUT_RECORDS_PROCESSED=6417, INPUT_SPLIT_LENGTH_BYTES=19596657, TaskCounter_Map_1_OUTPUT_Reducer_10, ADDITIONAL_SPILLS_BYTES_READ=0, ADDITIONAL_SPILLS_BYTES_WRITTEN=0, ADDITIONAL_SPILL_COUNT=0, OUTPUT_BYTES=1281749, OUTPUT_BYTES_PHYSICAL=640037, OUTPUT_BYTES_WITH_OVERHEAD=1495379, OUTPUT_LARGE_RECORDS=0, OUTPUT_RECORDS=106812, SPILLED_RECORDS=0"
+print len(myline)
+
+
+
 
 
