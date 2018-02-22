@@ -15,7 +15,7 @@ import random
 
 
 def genrandom():
-    game=random.randint(4123,8123)
+    game=random.randint(4000,4002)
     return game
 
 def game():
@@ -28,20 +28,41 @@ def game():
 
 if __name__ == "__main__":
 
-    while (gamelist == userlist or user_input == 'exit'):
+    gamelist = game()
+    xval = str(0)
+    totalcows = 0
+    totalbulls = 0
+
+    while ( len(xval) != 4 ):
         userlist = []
         cows = []
         bulls = []
-        user_input = raw_input("Enter your 4 digit guess: ")
+        user_input = raw_input("Guess>> ")
         # Get the puzzle for the game
-        gamelist = game()
         #Conver user response to list "userlist", for comparison
         for uval in str(user_input):
             userlist.append(uval)
 
-        for i in range(0,5):
+        xval = [i for i, j in zip(userlist,gamelist) if i == j]
+
+        for i in range(0,4):
             if(gamelist[i] == userlist[i]):
-                cows.append(len(i))
+                cows.append(i)
+            elif (gamelist[i] in userlist):
+                bulls.append(i)
+
+
+        print len(xval)
+        print gamelist
+        print len(cows), "Cow, ", len(bulls), "Bull"
+        totalcows += len(cows)
+        totalbulls += len(bulls)
+
+    print "You used, ", totalcows, "cows and ", totalbulls, "bulls"
+
+
+
+
 
 
 
