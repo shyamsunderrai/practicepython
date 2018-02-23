@@ -53,6 +53,8 @@ def longrunning():
     output.sort(key=lambda x:x[2],reverse=True)
     print "You can list all tasks with time taken to complete Or you can specify a number of lines you wish to see"
     uinput = int(input("Enter the number of tasks you wish to list: "))
+    print " "
+    print "- - - - - Here are the longest running tasks from applciation log - - - - -"
     for val in range(0,uinput):
         result.append(output[val])
         print output[val]
@@ -62,16 +64,54 @@ def longrunning():
 def getcounters():
     #Attempts to sort from buffer
     a2s = []
-    print "Retrieving counters details for retrieved attempts"
+    output = []
     attempts = longrunning()
+    print " "
+    print " "
+    print "- - - - - Here are counters for map tasks - - - - -"
     for attempt in attempts:
         a2s.append(attempt[1])
+    for attempt in a2s:
+        for line in yarnappfile.getvalue().splitlines():
+            if attempt in line and 'org.apache.tez.common.counters.TaskCounter' in line:
+                 output.append(attempt)
+                 output.append(line)
+    for i in range(len(output)):
+        print " "
+        print output[i]
+    return a2s
 
+
+def containerdetails():
+    a2s = getcounters()
+    output = []
+    # Get container details for the longest running tasks
+    for attempt in a2s:
+        for line in yarnappfile.getvalue().splitlines():
+            if attempt in line and 'Assigning container to task' in line:
+                item = "<<< " + attempt + " >>>"
+                output.append(item)
+                output.append(line)
+
+    print " "
+    print " "
+    print "- - - - - Container details for tasks - - - - -"
+    print " "
+    print " "
+    for i in range(len(output)):
+        print output[i]
+        print " "
+
+
+def getexceptions():
+    print " "
+    print " "
+    print "- - - - - Exceptions in the application log - - - - -"
+    print " "
     for line in yarnappfile.getvalue().splitlines():
-        for item in a2s:
-            if item in line and 'org.apache.tez.common.counters.TaskCounter' in line:
-                print "- - - - - Counters for ", item, " - - - - -"
-                print line
+        if 'taskAttemptId=attempt_' in line and 'status=FAILED' in line and 'Exception' in line:
+            print line
+
 
 # Running main code here
 
@@ -81,7 +121,8 @@ yarnappfile = StringIO.StringIO()
 for line in open(user_input):
     yarnappfile.write(line)
 
-getcounters()
+containerdetails()
+getexceptions()
 yarnappfile.close()
 
 

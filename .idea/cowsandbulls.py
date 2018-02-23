@@ -45,6 +45,7 @@ if __name__ == "__main__":
 
         xval = [i for i, j in zip(userlist,gamelist) if i == j]
 
+
         for i in range(0,4):
             if(gamelist[i] == userlist[i]):
                 cows.append(i)
