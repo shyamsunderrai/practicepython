@@ -111,7 +111,7 @@ def getexceptions():
     for line in yarnappfile.getvalue().splitlines():
         if 'taskAttemptId=attempt_' in line and 'status=FAILED' in line and 'Exception' in line:
             print line
-            print test
+
 
 # Running main code here
 
