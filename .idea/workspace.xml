@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40e7c3ee-b338-488f-a7cb-bd15cd0db3e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/applogparser.py" afterPath="$PROJECT_DIR$/.idea/applogparser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test.py" afterPath="$PROJECT_DIR$/.idea/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="applogparser.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applogparser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/applogparser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="218">
+              <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding>
                 <element signature="e#495#510#0" expanded="true" />
               </folding>
@@ -29,7 +29,7 @@
       <file leaf-file-name="cowsandbulls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/cowsandbulls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="612">
               <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
               <folding />
             </state>
@@ -39,36 +39,57 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1103">
-              <caret line="702" column="44" lean-forward="false" selection-start-line="702" selection-start-column="44" selection-end-line="702" selection-end-column="44" />
+            <state relative-caret-position="1643">
+              <caret line="738" column="44" lean-forward="false" selection-start-line="738" selection-start-column="44" selection-end-line="738" selection-end-column="44" />
               <folding>
-                <marker date="1519351443000" expanded="true" signature="62008:62133" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62008:62151" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62008:62164" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62008:62179" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62031:62116" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62214:63579" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62227:63564" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62278:62543" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62297:62528" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62330:62508" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62370:62474" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62391:62452" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62586:62892" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62605:62877" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62679:62857" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62719:62823" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62740:62801" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62927:63233" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="62946:63218" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="63020:63198" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="63060:63164" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="63081:63142" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="63285:63550" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="63304:63535" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="63337:63515" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="63377:63481" ph="..." />
-                <marker date="1519351443000" expanded="true" signature="63398:63459" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63655:63672" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63655:63690" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63655:63703" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63655:63718" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63753:65118" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63766:65103" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63817:64082" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63836:64067" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63869:64047" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63909:64013" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="63930:63991" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64125:64431" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64144:64416" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64218:64396" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64258:64362" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64279:64340" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64466:64772" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64485:64757" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64559:64737" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64599:64703" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64620:64681" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64824:65089" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64843:65074" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64876:65054" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64916:65020" ph="..." />
+                <marker date="1519427182000" expanded="true" signature="64937:64998" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="randompassword.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/randompassword.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <folding>
+                <element signature="e#1#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,18 +150,17 @@
         <option value="$PROJECT_DIR$/.idea/randompassword.py" />
         <option value="$PROJECT_DIR$/.idea/unusedcode.py" />
         <option value="$PROJECT_DIR$/.idea/decodepage.py" />
-        <option value="$PROJECT_DIR$/.idea/test.py" />
         <option value="$PROJECT_DIR$/.idea/cowsandbulls.py" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.idea/applogparser.py" />
+        <option value="$PROJECT_DIR$/.idea/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="231" />
-    <option name="y" value="62" />
-    <option name="width" value="2112" />
-    <option name="height" value="1269" />
+    <option name="y" value="23" />
+    <option name="width" value="2520" />
+    <option name="height" value="1340" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.applogparser">
+  <component name="RunManager" selected="Python.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -374,9 +394,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.applogparser" />
-        <item index="1" class="java.lang.String" itemvalue="Python.cowsandbulls" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.applogparser" />
+        <item index="2" class="java.lang.String" itemvalue="Python.cowsandbulls" />
         <item index="3" class="java.lang.String" itemvalue="Python.decodepage" />
         <item index="4" class="java.lang.String" itemvalue="Python.randompassword" />
       </list>
@@ -566,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519351451616</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Saving applogparser">
+      <created>1519351498142</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1519351498142</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -579,12 +606,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5028612" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38873628" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5906593" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="291" y="120" width="349" height="524" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="291" y="120" width="349" height="524" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -975,16 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/randompassword.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#292#305#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/reversewordorder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1009,66 +1026,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#16#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/cowsandbulls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1103">
-          <caret line="702" column="44" lean-forward="false" selection-start-line="702" selection-start-column="44" selection-end-line="702" selection-end-column="44" />
+        <state relative-caret-position="1643">
+          <caret line="738" column="44" lean-forward="false" selection-start-line="738" selection-start-column="44" selection-end-line="738" selection-end-column="44" />
           <folding>
-            <marker date="1519351443000" expanded="true" signature="62008:62133" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62008:62151" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62008:62164" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62008:62179" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62031:62116" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62214:63579" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62227:63564" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62278:62543" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62297:62528" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62330:62508" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62370:62474" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62391:62452" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62586:62892" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62605:62877" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62679:62857" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62719:62823" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62740:62801" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62927:63233" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="62946:63218" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="63020:63198" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="63060:63164" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="63081:63142" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="63285:63550" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="63304:63535" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="63337:63515" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="63377:63481" ph="..." />
-            <marker date="1519351443000" expanded="true" signature="63398:63459" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63655:63672" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63655:63690" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63655:63703" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63655:63718" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63753:65118" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63766:65103" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63817:64082" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63836:64067" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63869:64047" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63909:64013" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="63930:63991" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64125:64431" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64144:64416" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64218:64396" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64258:64362" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64279:64340" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64466:64772" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64485:64757" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64559:64737" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64599:64703" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64620:64681" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64824:65089" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64843:65074" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64876:65054" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64916:65020" ph="..." />
+            <marker date="1519427182000" expanded="true" signature="64937:64998" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/applogparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="218">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <element signature="e#495#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/cowsandbulls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/randompassword.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

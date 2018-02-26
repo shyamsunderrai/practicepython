@@ -34,11 +34,22 @@ import StringIO
 
 #myfile.close()
 
-a = [0, 1, 2, 4]
-b = [0, 1, 2, 4]
+#a = [0, 1, 2, 4]
+#b = [0, 1, 2, 4]
 
-x = [i for i, j in zip(a, b) if i == j]
-print len(x)
+#x = [i for i, j in zip(a, b) if i == j]
+#print len(x)
+
+import string
+import random
+
+val = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(2001))
+print len(val)
+print val
+
+
+
+
 
 
 
